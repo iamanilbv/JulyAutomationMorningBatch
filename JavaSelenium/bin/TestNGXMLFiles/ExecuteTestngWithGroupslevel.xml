@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test cases">
+  <groups>
+    <run>
+        <include name="smoke"></include>
+    </run>
+  </groups>
+  <test name="Groups Testing">
+    <classes>
+       <class name="com.sgtest.TestNGExecutionOrder.GroupsDemo"></class>
+    </classes>
+  </test>
+</suite>

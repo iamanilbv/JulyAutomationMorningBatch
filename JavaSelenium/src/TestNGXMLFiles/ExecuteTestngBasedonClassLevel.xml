@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test cases">
+  <test name="User and Products">
+  <parameter name="username" value="DemoUser456"></parameter>
+    <classes>
+       <class name="com.sgtest.TestNGUsers.Users"></class>
+       <class name="com.sgtest.TestNGProducts.Products"></class>
+    </classes>
+  </test>
+</suite>

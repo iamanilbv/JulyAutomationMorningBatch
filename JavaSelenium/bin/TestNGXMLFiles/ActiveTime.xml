@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Active Time Test cases" verbose="2">
+  <test name="Active Time End to End scenario">
+    <classes>
+       <class name="com.sgtest.TestNGActive.ActiveTime">
+           <methods>
+              <include name="launchBrowser"></include>
+              <include name="navigate"></include>
+            <!--   <parameter name="username" value="admin"></parameter>
+              <parameter name="password" value="manager"></parameter>
+              <parameter name="user" value="Admin"></parameter> -->
+              <include name="loginUser"></include>    
+              <include name="minimizeFlyOutWindow"></include>
+<!--                <parameter name="user" value="Admin"></parameter> -->
+              <include name="logoutUser"></include>
+              <include name="closeApplication"></include>      
+                      
+           </methods>
+       </class>
+    </classes>
+  </test>
+</suite>
+
+
